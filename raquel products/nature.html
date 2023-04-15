@@ -1,0 +1,205 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BO Commerce - Nature</title>
+<link rel="stylesheet" href="../style.css">
+<link href='https://fonts.googleapis.com/css?family=Special Elite' rel='stylesheet'>
+<!--icon link -->
+<link rel = "icon" href ="../Watermark Small.png" type = "image/x-icon">
+</head>
+<body>
+
+ <nav class="navbar">
+   <img src="../Original.svg" alt="Logo" height= "90px"
+width="180px">
+   <div class="nav-links">
+      <ul>
+         <li><a href="../home.html">HOME</a></li>
+         <li><a href="../about us.html">ABOUT US</a></li>
+         <div class="dropdown">
+            <button class="dropbtn">PRODUCTS</button>
+             <div class="dropdown-content">
+              <a href="../bathroom armature.html">Bathroom Armature</a>
+              <a href="../bathroom furniture.html">Bathroom Furniture</a>
+              </div>
+             </div> 
+         <li><a href="../contact us.html">CONTACT US</a></li>
+      </ul>
+   </div> 
+<img src="../menu-btn.png" alt="menu hamburger" class="menu-hamburger">
+</nav>
+
+<div class="product-img" style="background-image: url('../raquel products images/nature.png');">
+  <div class="product-title">
+    <strong>Nature</strong>
+  </div>
+</div>
+
+<div class="container-product">
+   <div class="row">
+      <div class="left-section">
+
+          <div class="main-image">
+              <img src="../raquel products images/nature.png" alt="nature" id="image"/>
+           </div>
+             
+          <div class="small-image-group">
+              <div class="small-image">
+                <img src="../raquel products images/nature.png" alt="nature" onclick="clickme(this)"/>
+              </div> 
+              <div class="small-image">
+                <img src="../raquel products images/nature-1.jpg" alt="nature" onclick="clickme(this)"/>
+              </div>
+              <div class="small-image">
+                <img src="../raquel products images/nature-2.jpg" alt="nature" onclick="clickme(this)"/>
+              </div>  
+              <div class="small-image">
+                <img src="../raquel products images/nature-3.png" alt="nature" onclick="clickme(this)"/>
+              </div> 
+          </div>
+
+      </div>
+   </div>
+</div>
+
+<div class="title-of-product">
+Nature
+</div>
+
+
+<div class="container-product-dimensions-attributes">
+   <div class="left-attributes">
+      <div class="attributes-dimensions-title">
+         Product Attributes
+      </div>
+
+     <table class="content-table">
+       <tbody>
+          <tr>
+             <td rowspan="2">Color</td>
+             <td>WHITE/NATURAL WOOD OAK</td>
+          </tr>
+          <tr>
+             <td>ANTHRACITE/NATURAL</td>
+          </tr>
+          <tr>
+             <td>Cover</td>
+             <td>MDF LAM + Lacquer Paint</td>
+          </tr>
+          <tr>
+             <td>Body</td>
+             <td>CNC Machined MDF LAM + Lacquer Paint</td>
+          </tr>
+          <tr>
+             <td>Drawer</td>
+             <td>Tandem Rail</td>
+          </tr>
+          <tr>
+             <td>Sink</td>
+             <td>Ceramic Sink</td>
+          </tr>
+          <tr>
+             <td>Cover Type</td>
+             <td>Cover with Break</td>
+          </tr>
+          <tr>
+             <td>Drawer Type</td>
+             <td>Soft Close Drawer</td>
+          </tr>
+          <tr>
+             <td>Mirror</td>
+             <td>Led Mirror</td>
+          </tr>
+          <tr>
+             <td>Mirror Type</td>
+             <td>Touch Mirror</td>
+          </tr>
+          <tr>
+             <td>Mirror Type</td>
+             <td>Defoster</td>
+          </tr>
+          <tr>
+             <td>Stand</td>
+             <td>Wooden Stand</td>
+          </tr>
+
+       </tbody>
+     </table>
+  
+   </div>
+   <div class="right-dimensions">
+       <div class="attributes-dimensions-title">
+          Product Dimensions
+       </div>
+       <img src="../raquel products images/nature-dimensions.jpg" alt="nature"/>
+   </div>
+</div>
+
+<script>
+function clickme(smallImage)
+{
+fullImage = document.getElementById("image");
+fullImage.src = smallImage.src;
+}
+</script>
+
+<footer class="footer">
+   <div class="footer-left">
+      <img src="../Original.svg" alt="">
+      <p>BO Commerce, established by Bayram OZMEN, a member of a family working 
+within the construction industry for more than 30 years, aims to establish a corporate 
+synergy with a professional team in order to contribute to the construction industry, 
+as well as successfully completed housing projects in different provinces of Türkiye.
+      </p>
+   </div>
+   <ul class="footer-right">
+      <li>
+         <h2>Products</h2>
+
+         <ul class="box">
+            <li><a href="../bathroom armature.html">Bathroom Armature</a></li>
+            <li><a href="../bathroom furniture.html">Bathroom Furniture</a></li>
+         </ul>
+      </li>
+
+      <li class="features">
+         <h2>Useful Links</h2>
+
+         <ul class="box">
+            <li><a href="../home.html">HOME</a></li>
+            <li><a href="../about us.html">ABOUT US</a></li>
+            <li><a href="../contact us.html">CONTACT US</a></li>
+         </ul>
+      </li>
+       
+      <li>
+         <h2>Contact us</h2>
+
+         <ul class="box">
+            <li><a href = "mailto: info@bocommerce.co">Email: info@bocommerce.co</a></li>
+            <li><a href="#">Adress: Çinarönü Mahallesi,</a></li>
+            <li><a href="#">7. Efe Sokak</a></li>
+            <li><a href="#">C Blok No:2,</a></li>
+            <li><a href="#">Yıldırım/ Bursa/ Türkiye</a></li>
+         </ul>
+      </li>
+   </ul>
+
+   <div class="footer-bottom"> 
+      <p>All Right reserved by &copy;conceptial 2023</p>
+   </div>
+</footer>
+
+</body>
+
+   <script>
+     const menuHamburger = document.querySelector(".menu-hamburger");
+     const navLinks = document.querySelector(".nav-links");
+
+     menuHamburger.addEventListener('click',()=>{
+     navLinks.classList.toggle('mobile-menu');
+});
+   </script>
+
+</html>
